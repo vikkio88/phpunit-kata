@@ -1,0 +1,21 @@
+{
+    "name": "jameshd/kata",
+    "description": "Run PHP UnitTests on file saved.",
+    "license": "MIT",
+    "keywords": ["tdd", "kata", "phpunit", "grunt", "run tests on save"],
+    "authors": [
+        {
+            "name": "James HD",
+            "email": "jhd@boun.cr"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Kata\\" : "src/main/",
+            "Kata\\Test\\" : "src/test/"
+        }
+    }
+}
