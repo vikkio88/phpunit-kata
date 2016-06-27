@@ -56,7 +56,9 @@ class ConvertorTest extends \PHPUnit_Framework_TestCase
             17 => [17, 'XVII'],
             77 => [77, 'LXXVII'],
             767 => [767, 'DCCLXVII'],
-            1260 => [1260, 'MCCLX']
+            1260 => [1260, 'MCCLX'],
+            2220 => [2220, 'MMCCXX'],
+
         ];
     }
 }
