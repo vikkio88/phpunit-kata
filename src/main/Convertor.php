@@ -35,7 +35,7 @@ class Convertor
     private function isValidNumber($number)
     {
         return is_numeric($number) &&
-            ($number >= self::LOWER_BOUND && $number <= self::UPPER_BOUND);
+        ($number >= self::LOWER_BOUND && $number <= self::UPPER_BOUND);
     }
 
     private function toNumeral($number)
